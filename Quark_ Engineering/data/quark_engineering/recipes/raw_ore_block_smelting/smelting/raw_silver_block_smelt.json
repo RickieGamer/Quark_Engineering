@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "immersiveengineering:raw_block_silver"
+  },
+  "result": "immersiveengineering:storage_silver",
+  "experience": 9,
+  "cookingtime": 1800,
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "smelt_ore_blocks"
+    }
+  ]
+}
