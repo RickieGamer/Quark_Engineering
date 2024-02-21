@@ -3,7 +3,7 @@
     "energy": 1600,
     "input": [
         {
-            "item": "quark:ancient_log"
+            "item": "quark:ancient_wood"
         }
     ],
     "result": {
@@ -25,7 +25,7 @@
         }
     ],
     "stripped": {
-        "item": "quark:stripped_ancient_log"
+        "item": "quark:stripped_ancient_wood"
     },
   "conditions": [
     {

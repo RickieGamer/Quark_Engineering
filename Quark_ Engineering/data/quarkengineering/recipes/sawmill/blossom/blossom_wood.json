@@ -3,12 +3,12 @@
     "energy": 1600,
     "input": [
         {
-            "item": "quark:ancient_log"
+            "item": "quark:blossom_wood"
         }
     ],
     "result": {
         "count": 6,
-        "item": "quark:ancient_planks"
+        "item": "quark:blossom_planks"
     },
     "secondaries": [
         {
@@ -25,12 +25,12 @@
         }
     ],
     "stripped": {
-        "item": "quark:stripped_ancient_log"
+        "item": "quark:stripped_blossom_wood"
     },
   "conditions": [
     {
       "type": "quark:flag",
-      "flag": "ancient_wood"
+      "flag": "blossom_trees"
     }
   ]
 }
