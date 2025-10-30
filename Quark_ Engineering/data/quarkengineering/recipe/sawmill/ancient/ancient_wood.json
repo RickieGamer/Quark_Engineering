@@ -1,0 +1,30 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "quark:ancient_wood"
+  },
+  "result": {
+    "count": 6,
+    "id": "quark:ancient_planks"
+  },
+  "secondaryOutputs": [
+    {
+      "tag": "c:dusts/wood"
+    }
+  ],
+  "stripped": {
+    "id": "quark:stripped_ancient_wood"
+  },
+  "strippingSecondaries": [
+    {
+      "tag": "c:dusts/wood"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "zeta:flag",
+      "flag": "ancient_wood"
+    }
+  ]
+}

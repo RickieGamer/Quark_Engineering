@@ -1,0 +1,30 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "quark:azalea_wood"
+  },
+  "result": {
+    "count": 6,
+    "id": "quark:azalea_planks"
+  },
+  "secondaryOutputs": [
+    {
+      "tag": "c:dusts/wood"
+    }
+  ],
+  "stripped": {
+    "id": "quark:stripped_azalea_wood"
+  },
+  "strippingSecondaries": [
+    {
+      "tag": "c:dusts/wood"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "zeta:flag",
+      "flag": "azalea_wood"
+    }
+  ]
+}

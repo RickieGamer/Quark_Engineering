@@ -1,0 +1,24 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+license="CC BY-NC-SA"
+issueTrackerURL="https://github.com/RickieGamer/Quark_Engineering/issues"
+
+[[mods]]
+modId="quarkengineering"
+version="1.2"
+displayName="Quark Engineering"
+description="Immersive Engineering and Quark recipe compat "
+authors="RickieGamer"
+
+
+[[dependencies.quarkengineering]]
+    modId="immersiveengineering"
+    versionRange="[12.4.2-194,)"
+    mandatory=true
+    ordering="AFTER"
+
+[[dependencies.quarkengineering]]
+    modId="quark"
+    versionRange="[4.1-465,)"
+    mandatory=true
+    ordering="AFTER"

@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "quark:blossom_planks_stairs"
+  },
+  "result": {
+    "id": "quark:blossom_planks"
+  },
+  "secondaryOutputs": [],
+  "strippingSecondaries": [
+    {
+      "tag": "c:dusts/wood"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "zeta:flag",
+      "flag": "blossom_trees"
+    }
+  ]
+}
